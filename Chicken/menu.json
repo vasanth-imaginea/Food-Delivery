@@ -1,0 +1,60 @@
+{
+  "Menu" : [
+        {
+          "imageUrl": "images/food_img.jpg",
+          "name":"Chicken 65",
+          "price" :"Rs.250",
+          "description":"Some Content",
+          "type":"veg"
+        },
+        {
+          "imageUrl": "images/food_img.jpg",
+          "name":"Chicken 65",
+          "price" :"Rs.250",
+          "description":"Some Content",
+          "type":"veg"
+        },
+        {
+          "imageUrl": "images/food_img.jpg",
+          "name":"Chicken 65",
+          "price" :"Rs.250",
+          "description":"Some Content",
+          "type":"veg"
+        },
+        {
+          "imageUrl": "images/food_img.jpg",
+          "name":"Chicken 65",
+          "price" :"Rs.250",
+          "description":"Some Content",
+          "type":"veg"
+        },
+        {
+          "imageUrl": "images/food_img.jpg",
+          "name":"Chicken 65",
+          "price" :"Rs.250",
+          "description":"Some Content",
+          "type":"non_veg"
+        },
+        {
+          "imageUrl": "images/food_img.jpg",
+          "name":"Chicken 65",
+          "price" :"Rs.250",
+          "description":"Some Content",
+          "type":"non_veg"
+        },
+        {
+          "imageUrl": "images/food_img.jpg",
+          "name":"Chicken 65",
+          "price" :"Rs.250",
+          "description":"Some Content",
+          "type":"non_veg"
+        },
+        {
+          "imageUrl": "images/food_img.jpg",
+          "name":"Chicken 65",
+          "price" :"Rs.250",
+          "description":"Some Content",
+          "type":"non_veg"
+        }
+        ]
+}        

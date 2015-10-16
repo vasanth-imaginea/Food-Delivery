@@ -1,0 +1,56 @@
+.lContainer{
+	    background-color: #eeeeee;
+    border-radius: 2px;
+    /* box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25); */
+    display:block;
+    line-height: 20px;
+    margin: 0px 0px 0px;
+    padding: 8.5px;
+    text-align: left;
+    width: 30%;
+    text-align: center;
+    margin:0px auto;
+
+}
+div.img {
+    margin: 5px;
+   
+    border: 1px solid #9F9FA2;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+    background-color: #EEF5EC;
+}	
+
+div.img img {
+    display: inline;
+    
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border: 1px solid #0000ff;
+}
+
+div.desc {
+  text-align: left;
+  font-weight: normal;
+  width: 120px;
+  margin-top: 40px;
+  margin-left:5px;
+}
+.fName{
+	float:left;
+	margin-left:5px;
+}
+.fPrice{
+	float:right;
+	margin-right:5px;
+}
+.btn-group-justified{
+	width:20% !important;
+}
+.dTitle{
+	text-align: center;
+}
