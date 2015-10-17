@@ -1,60 +1,60 @@
 {
   "Menu" : [
         {
-          "imageUrl": "images/food_img.jpg",
-          "name":"Chicken 65",
+          "imageUrl": "images/veg1.jpg",
+          "name":"Homestyle Chhole Puri with Sevaiyyan Kheer",
           "price" :"Rs.250",
-          "description":"Some Content",
+          "description":"Enjoy the rustic flavours of Punjab with this homestyle Chhole, served with 5 Ajwain Puris and Sevaiyyan Kheer to complete the awesomeness!",
           "type":"veg"
         },
         {
-          "imageUrl": "images/food_img.jpg",
-          "name":"Chicken 65",
-          "price" :"Rs.250",
-          "description":"Some Content",
+          "imageUrl": "images/veg2.jpg",
+          "name":"Homestyle Chhole Puri with Sevaiyyan Kheer",
+          "price" :"Rs.350",
+          "description":"Enjoy the rustic flavours of Punjab with this homestyle Chhole, served with 5 Ajwain Puris and Sevaiyyan Kheer to complete the awesomeness!",
           "type":"veg"
         },
         {
-          "imageUrl": "images/food_img.jpg",
-          "name":"Chicken 65",
-          "price" :"Rs.250",
-          "description":"Some Content",
+          "imageUrl": "images/veg3.jpg",
+          "name":"Homestyle Chhole Puri with Sevaiyyan Kheer",
+          "price" :"Rs.300",
+          "description":"Enjoy the rustic flavours of Punjab with this homestyle Chhole, served with 5 Ajwain Puris and Sevaiyyan Kheer to complete the awesomeness!",
           "type":"veg"
         },
         {
-          "imageUrl": "images/food_img.jpg",
-          "name":"Chicken 65",
-          "price" :"Rs.250",
-          "description":"Some Content",
+          "imageUrl": "images/veg4.jpg",
+          "name":"Homestyle Chhole Puri with Sevaiyyan Kheer",
+          "price" :"Rs.150",
+          "description":"Enjoy the rustic flavours of Punjab with this homestyle Chhole, served with 5 Ajwain Puris and Sevaiyyan Kheer to complete the awesomeness!",
           "type":"veg"
         },
         {
-          "imageUrl": "images/food_img.jpg",
-          "name":"Chicken 65",
+          "imageUrl": "images/non1.jpg",
+          "name":"Homestyle Chhole Puri with Sevaiyyan Kheer",
           "price" :"Rs.250",
-          "description":"Some Content",
-          "type":"non_veg"
+          "description":"Enjoy the rustic flavours of Punjab with this homestyle Chhole, served with 5 Ajwain Puris and Sevaiyyan Kheer to complete the awesomeness!",
+          "type":"non"
         },
         {
-          "imageUrl": "images/food_img.jpg",
-          "name":"Chicken 65",
-          "price" :"Rs.250",
-          "description":"Some Content",
-          "type":"non_veg"
+          "imageUrl": "images/non2.jpg",
+          "name":"Homestyle Chhole Puri with Sevaiyyan Kheer",
+          "price" :"Rs.400",
+          "description":"Enjoy the rustic flavours of Punjab with this homestyle Chhole, served with 5 Ajwain Puris and Sevaiyyan Kheer to complete the awesomeness!",
+          "type":"non"
         },
         {
-          "imageUrl": "images/food_img.jpg",
-          "name":"Chicken 65",
-          "price" :"Rs.250",
-          "description":"Some Content",
-          "type":"non_veg"
+          "imageUrl": "images/non3.jpg",
+          "name":"Homestyle Chhole Puri with Sevaiyyan Kheer",
+          "price" :"Rs.290",
+          "description":"Enjoy the rustic flavours of Punjab with this homestyle Chhole, served with 5 Ajwain Puris and Sevaiyyan Kheer to complete the awesomeness!",
+          "type":"non"
         },
         {
-          "imageUrl": "images/food_img.jpg",
-          "name":"Chicken 65",
-          "price" :"Rs.250",
-          "description":"Some Content",
-          "type":"non_veg"
+          "imageUrl": "images/non4.jpg",
+          "name":"Homestyle Chhole Puri with Sevaiyyan Kheer",
+          "price" :"Rs.450",
+          "description":"Enjoy the rustic flavours of Punjab with this homestyle Chhole, served with 5 Ajwain Puris and Sevaiyyan Kheer to complete the awesomeness!",
+          "type":"non"
         }
         ]
 }        

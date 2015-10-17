@@ -1,14 +1,16 @@
-<h2>Menu items</h2>
-<div class="btn-group btn-group-justified">
-  <a class="btn btn-default" ng-click = "onAllClick()">All</a>
-  <a class="btn btn-default" ng-click = "onVegClick()">Veg</a>
-  <a class="btn btn-default" ng-click = "onNonvegClick()">Non-Veg</a>
-</div>
-<div class="img" ng-controller ="menuCtrl" ng-repeat = "item in fMenu.Menu | filter: { type: vegValue } ">
- <img ng-src="{{item.imageUrl}}" width="280" height="100"></a>
- <div>
- <span class = "fName">{{item.name}}</span>
- <span class = "fPrice">{{item.price}}</span>
- </div>
- <div class="desc">{{item.description}}</div>
+<div class = "menuContainer">
+   <h4>Menu items</h4>
+   <div class="btn-group btn-group-justified">
+      <a class="btn btn-default " ng-click = "onAllClick()">All</a>
+      <a class="btn btn-default" ng-click = "onVegClick()">Veg</a>
+      <a class="btn btn-default" ng-click = "onNonvegClick()">Non-Veg</a>
+  </div>
+  <div class="img menuSelect" ng-controller ="menuCtrl" ng-repeat = "item in fMenu.Menu | filter: { type: categoryValue } ">
+      <img ng-src="{{item.imageUrl}}" width="300" height="100"></a>
+      <div>
+          <span class = "fName">{{item.name}}</span>
+          <span class = "fPrice">{{item.price}}</span>
+      </div>
+      <div class="desc">{{item.description}}</div>
+  </div>
 </div>

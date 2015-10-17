@@ -1,5 +1,4 @@
 var webApp = angular.module('webApp', ['ngRoute', 'ngResource']);
-/* Router */
 webApp.config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
@@ -18,40 +17,37 @@ webApp.config(['$routeProvider',
     }
 
 ]).controller('locationCtrl', function($scope,$http, $location) {
-  $http.get('location.json').success(function(response){ /* Fetching the JSON data */
+  $http.get('location.json').success(function(response){ 
 
     $scope.dLocation=response;
 
     $scope.onLocationClick = function(){
       $location.path("/Menu");
-    }
-
-  });
-  });
+}
+ });
+});
 webApp.controller('menuCtrl', function($scope,$http, $location) {
-  $http.get('menu.json').success(function(response){ /* Fetching the JSON data */
+  $http.get('menu.json').success(function(response){ 
 
     $scope.fMenu=response;
     $scope.onVegClick = function(){
-      $scope.vegValue = "veg";
-
-      //$scope.sample = $scope.fMenu;
-     //for(i=0;i<$scope.fMenu.Menu.length;i++){
-      //$scope.fMenu.Menu[i] = ($($scope.fMenu).filter($scope.fMenu.Menu[i].type =="veg"));
-      //$scope.fMenu.Menu.filter(function() {
-      //return  $( this ).type === "veg";
+      $scope.categoryValue = "veg";
   }
-  
-
-   // }
-
-    
-
+  $scope.onNonvegClick = function(){
+      $scope.categoryValue = "non";
+  }
+  $scope.onAllClick = function(){
+      $scope.categoryValue = "";
+  }
   });
-  });
+});
 $(".nav li").on("click", function() {
     location.href ="/#Menu";
     $(".nav li").removeClass("active");
+    $(this).addClass("active");
+  });
+$(".div a").on("click", function() {
+    $(".div a").removeClass("active");
     $(this).addClass("active");
   });
 

@@ -1,17 +1,17 @@
 {
   "location" : [
         
-          {"place" : "place1"},
-          {"place" : "place1"},
-          {"place" : "place1"},
-          {"place" : "place1"},
-          {"place" : "place1"},
-          {"place" : "place1"},
-          {"place" : "place1"},
-          {"place" : "place1"},
-          {"place" : "place1"},
-          {"place" : "place1"},
-          {"place" : "place1"}
+          {"place" : "Domlur"},
+          {"place" : "HSR Layout"},
+          {"place" : "Indira Nagar"},
+          {"place" : "BTM Layout"},
+          {"place" : "AKR Tech Park"},
+          {"place" : "Outer Ring Road"},
+          {"place" : "MG Road"},
+          {"place" : "Bellandur"},
+          {"place" : "Sarjapur Road"},
+          {"place" : "Koramangala"},
+          {"place" : "White Fields"}
         ]
 }        
 
