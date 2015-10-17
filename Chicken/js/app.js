@@ -46,8 +46,5 @@ $(".nav li").on("click", function() {
     $(".nav li").removeClass("active");
     $(this).addClass("active");
   });
-$(".div a").on("click", function() {
-    $(".div a").removeClass("active");
-    $(this).addClass("active");
-  });
+
 
